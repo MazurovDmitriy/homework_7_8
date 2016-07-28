@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'league_gothic';
+	src: url('../fonts/leaguegothiccyrillic-webfont.woff2') format('woff2'),
+	url('../fonts/leaguegothiccyrillic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+@font-face {
+	font-family: 'open_sans_extrabold';
+	src: url('../fonts/open_sans_extrabold-webfont.woff2') format('woff2'),
+	url('../fonts/open_sans_extrabold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+@font-face {
+	font-family: 'open_sans_light';
+	src: url('../fonts/open_sans_light-webfont.woff2') format('woff2'),
+	url('../fonts/open_sans_light-webfont.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+
+}
+* { margin: 0; padding: 0; }
+body {
+	font: 16px/24px 'open_sans_light', Arial, sans-serif;
+	background-color: #f9f9f9;
+}
